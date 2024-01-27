@@ -5,7 +5,7 @@ import styles from "./CartProductsList.module.css";
 export function CartProductsList({ products }) {
   return (
     <CenteredContent>
-      <div className={styles.CartProductsList}>
+      <div className={styles.cartProductsList}>
         <h2>Koszyk</h2>
         <div>
           {products.map((product) => {
