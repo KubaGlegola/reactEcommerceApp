@@ -2,9 +2,13 @@
   position: relative;
 }
 
+.product button {
+  border: none;
+}
+
 .product img {
-  height: 480px;
-  width: 250px;
+  height: 400px;
+  width: 280px;
 }
 
 .product h3 {
