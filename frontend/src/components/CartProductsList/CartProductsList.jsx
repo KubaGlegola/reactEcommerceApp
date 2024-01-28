@@ -8,11 +8,12 @@ export function CartProductsList({ products }) {
       <div className={styles.cartProductsList}>
         <h2>Koszyk</h2>
         <div>
-          {products.map((product) => {
-            return (
-              <CartProduct key={product.id} product={product}></CartProduct>
-            );
-          })}
+          {products &&
+            products.map((product) => {
+              return (
+                <CartProduct key={product.id} product={product}></CartProduct>
+              );
+            })}
         </div>
       </div>
     </CenteredContent>
